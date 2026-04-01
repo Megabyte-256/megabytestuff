@@ -1,0 +1,17 @@
+{
+  "background_color": "#e03d0b",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Counter",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Counter",
+  "start_url": "/https://megabyte-256.github.io/megabytestuff/counter/index.html",
+  "theme_color": "#ffffff",
+  "id": "megabyte64counter",
+  "description": "A simple counter.",
+  "categories": [
+    "productivity",
+    "utilities"
+  ]
+}
