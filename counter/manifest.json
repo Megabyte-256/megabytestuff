@@ -3,21 +3,24 @@
   "name": "Counter",
   "short_name": "Counter",
   "description": "A simple counter.",
-  "categories": ["productivity", "utilities"],
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
   "start_url": "index.html",
   "display": "standalone",
   "orientation": "any",
   "dir": "ltr",
   "background_color": "#e03d0b",
   "theme_color": "#ffffff",
-  "scope": "/megabytestuff/counter/",
+  "scope": "./",
   "icons": [
     {
       "src": "icon.png",
       "sizes": "463x455",
       "type": "image/png",
       "purpose": "any maskable"
-    }
+    },
     {
       "src": "icon192.png",
       "sizes": "192x192",
