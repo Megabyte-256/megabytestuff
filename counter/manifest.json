@@ -1,17 +1,22 @@
 {
-  "background_color": "#e03d0b",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "Counter",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "Counter",
-  "start_url": "/https://megabyte-256.github.io/megabytestuff/counter/index.html",
-  "theme_color": "#ffffff",
   "id": "megabyte64counter",
+  "name": "Counter",
+  "short_name": "Counter",
   "description": "A simple counter.",
-  "categories": [
-    "productivity",
-    "utilities"
+  "categories": ["productivity", "utilities"],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "dir": "ltr",
+  "background_color": "#e03d0b",
+  "theme_color": "#ffffff",
+  "scope": "/megabytestuff/counter/",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
